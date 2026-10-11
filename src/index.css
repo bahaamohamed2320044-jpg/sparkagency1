@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  --spark-gold: #F59E0B;
+  --spark-amber: #D97706;
+  --spark-yellow: #FFC72C;
+  --spark-highlight: #FFF7B2;
+  --spark-dark: #0A0A0A;
+  --spark-card: #121212;
+  --spark-surface: #181818;
+  --spark-border: rgba(245, 158, 11, 0.25);
+  --spark-border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  background-color: #0A0A0A;
+  color: #F1F5F9;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Luxury Electric Gold & Chrome Gradient Heading */
+.hero-heading {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FDE68A 45%, #F59E0B 80%, #B45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-heading-silver {
+  background: linear-gradient(180deg, #FFFFFF 0%, #E2E8F0 50%, #94A3B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.spark-glow {
+  box-shadow: 0 0 40px -10px rgba(245, 158, 11, 0.3);
+}
+
+.spark-border {
+  border-color: rgba(245, 158, 11, 0.25);
+}
